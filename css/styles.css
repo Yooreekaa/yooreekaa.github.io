@@ -10993,3 +10993,18 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+/* Always use the scrolled (shrinked) style */
+#mainNav {
+    background-color: #fff !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#mainNav .navbar-brand,
+#mainNav .nav-link {
+    color: #000 !important;
+}
+
+#mainNav .nav-link:hover {
+    color: #555 !important;
+}
