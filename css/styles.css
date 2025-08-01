@@ -11150,18 +11150,15 @@ header.thirdhead .h1 {
   opacity: 1;
 }
 
-/* Style for social media icons */
-.social-icons a {
+/* Custom styles for social media icons */
+.social-icon-link {
     color: var(--bs-black);
-    text-decoration: none;
-    border-bottom: none; 
-}
-
-.social-icons a:hover {
-    color: var(--bs-primary);
-}
-
-
-.social-icons a i {
+    text-decoration: none; 
+    border-bottom: none;
+    margin: 0 0.5rem;
     font-size: 1.5rem;
+}
+
+.social-icon-link:hover {
+    color: var(--bs-primary);
 }
