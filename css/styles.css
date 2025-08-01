@@ -11149,16 +11149,3 @@ header.thirdhead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
-
-/* Custom styles for social media icons */
-.social-icon-link {
-    color: var(--bs-black);
-    text-decoration: none; 
-    border-bottom: none;
-    margin: 0 0.5rem;
-    font-size: 1.5rem;
-}
-
-.social-icon-link:hover {
-    color: var(--bs-primary);
-}
